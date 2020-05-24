@@ -1,0 +1,16 @@
+#pragma once
+/* ´íÎó±àºÅ */
+enum err_code
+{
+	ERR_RET_OK = 0,
+	ERR_LIC_LOST = 101,
+	ERR_LIC_INVALID,
+	ERR_LIC_OVERDUE,
+	ERR_DEV_TIME,
+	ERR_MT_NOT_INIT,
+	ERR_TRADE_TYPE,
+	ERR_LIC_COMPARE_ERR,
+	ERR_SHARE_ERR1,
+	ERR_SHARE_ERR2,
+	ERR_NONE
+};

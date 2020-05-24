@@ -1,0 +1,38 @@
+#pragma once
+typedef unsigned char		u8;
+typedef char				s8;
+typedef unsigned short		u16;
+typedef short				s16;
+typedef unsigned int		u32;
+typedef int					s32;
+typedef float				FP32;
+typedef double				FP64;
+typedef void*				PVOID;
+typedef unsigned long long  u64;
+typedef long long			s64;
+typedef int                 BOOL;
+
+/* ÄÚ´æ¹æ¸ñ */
+#define KB (1024)
+#define MB (1024 * 1024)
+
+#define IN
+#define OUT
+#define INOUT
+
+
+#ifndef TRUE
+#define TRUE 1
+#endif
+
+#ifndef FALSE
+#define FALSE 0
+#endif
+
+#ifndef true
+#define true 1
+#endif
+
+#ifndef false
+#define false 0
+#endif

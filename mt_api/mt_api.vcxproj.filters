@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{5a5914ad-1c2c-4214-87dc-6083eed79089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\mt_data">
+      <UniqueIdentifier>{1282ac09-d534-457a-a6e7-4b33070a350a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\log">
+      <UniqueIdentifier>{11485f70-1cd3-4a08-b8bb-ca66a7c13a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\lic">
+      <UniqueIdentifier>{56b05d08-573f-4880-8777-f188b9c9c32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{0b4dfb9e-c783-463c-b85e-c0f53aa6fe5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\base">
+      <UniqueIdentifier>{f47706be-dce7-4df1-957c-fad3e79dec5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\win_crash_dump">
+      <UniqueIdentifier>{ece61b0e-3a0b-454e-9a32-ae184b3c8855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mt_data_manager.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mt_data\mt_data.cpp">
+      <Filter>sources\mt_data</Filter>
+    </ClCompile>
+    <ClCompile Include="lic\license.cpp">
+      <Filter>sources\lic</Filter>
+    </ClCompile>
+    <ClCompile Include="log\mt_log_manager.cpp">
+      <Filter>sources\log</Filter>
+    </ClCompile>
+    <ClCompile Include="dll_mt4_interface.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="base\app_lib.cpp">
+      <Filter>sources\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Crash Dump\WinCrashDump.cpp">
+      <Filter>sources\win_crash_dump</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\typedef.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="lic\license.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="mt_data\mt_data.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="mt_data_manager.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mt_error.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="log\mt_log_manager.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_mt4_interface.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\app_lib.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Crash Dump\WinCrashDump.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
